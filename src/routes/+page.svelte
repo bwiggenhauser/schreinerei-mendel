@@ -1,2 +1,20 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import "../app.css";
+	import Address from "../components/Address.svelte";
+	import Header from "../components/Header.svelte";
+	import Introduction from "../components/Introduction.svelte";
+	import Option from "../components/Option.svelte";
+	import { texts } from "../info/options";
+</script>
+
+<div class="dark:bg-gray-800 dark:text-white">
+	<Header />
+	<Introduction />
+	{#each texts as option}
+		<Option title={option.title} optionText={option.text} icon={option.icon} />
+	{/each}
+	<Address />
+</div>
+
+<style>
+</style>
