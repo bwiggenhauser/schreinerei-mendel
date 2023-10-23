@@ -7,7 +7,7 @@
 	import { texts } from "../info/options";
 </script>
 
-<div class="dark:bg-gray-800 dark:text-white">
+<div class="dark:bg-black dark:text-white">
 	<Header />
 	<Introduction />
 	{#each texts as option}
