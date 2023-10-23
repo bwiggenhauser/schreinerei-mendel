@@ -10,7 +10,7 @@
 
 <div
 	class="flex flex-row justify-center items-start dark:bg-dark-gray dark:text-white scroll-smooth">
-	<div class="w-full lg:w-2/3 dark:bg-dark-gray">
+	<div class="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 dark:bg-dark-gray">
 		<Header />
 		<Introduction />
 		<div class="flex flex-col lg:flex-row flex-wrap">
