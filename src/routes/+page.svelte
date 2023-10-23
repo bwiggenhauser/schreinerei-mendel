@@ -1,6 +1,7 @@
 <script>
 	import "../app.css";
 	import Address from "../components/Address.svelte";
+	import Footer from "../components/Footer.svelte";
 	import Header from "../components/Header.svelte";
 	import Introduction from "../components/Introduction.svelte";
 	import Option from "../components/Option.svelte";
@@ -22,6 +23,7 @@
 			{/each}
 		</div>
 		<Address />
+		<Footer />
 	</div>
 </div>
 

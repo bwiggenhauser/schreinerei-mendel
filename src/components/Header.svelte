@@ -2,7 +2,7 @@
 	<div class="image-container animate m-8">
 		<img src="/icon_new.png" alt="Schreinerei Icon" />
 	</div>
-	<p class="text-3xl mb-4 animate">Schreinerei Mendel</p>
+	<p class="text-3xl md:text-5xl mb-4 animate">Schreinerei Mendel</p>
 	<div class="flex flex-row w-full justify-evenly animate">
 		<p class="text-gray-600 dark:text-gray-300">Innenausbau • Meisterbetrieb</p>
 	</div>
