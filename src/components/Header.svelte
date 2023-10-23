@@ -1,6 +1,6 @@
 <div class="flex flex-col justify-start items-center font-bold">
 	<div class="image-container animate m-8">
-		<img src="/icon.png" alt="Schreinerei Icon" />
+		<img src="/icon_new.png" alt="Schreinerei Icon" />
 	</div>
 	<p class="text-3xl mb-4 animate">Schreinerei Mendel</p>
 	<div class="flex flex-row w-full justify-evenly animate">

@@ -7,8 +7,9 @@
 	import { texts } from "../info/options";
 </script>
 
-<div class="flex flex-row justify-center items-start dark:bg-black dark:text-white scroll-smooth">
-	<div class="w-full lg:w-2/3 dark:bg-neutral-800">
+<div
+	class="flex flex-row justify-center items-start dark:bg-dark-gray dark:text-white scroll-smooth">
+	<div class="w-full lg:w-2/3 dark:bg-dark-gray">
 		<Header />
 		<Introduction />
 		<div class="flex flex-col lg:flex-row flex-wrap">
