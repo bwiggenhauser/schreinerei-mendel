@@ -3,7 +3,7 @@
 	const textClass = "ml-2 text-sm";
 </script>
 
-<div class="flex flex-col justify-start items-center bg-mendel-yellow p-4 dark:text-black gap-4">
+<div class="flex flex-col justify-start items-center p-4 text-black dark:text-white gap-4">
 	<div class="flex flex-row items-center">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@
 				y1="2"
 				x2="16"
 				y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
-		<p class={textClass}>Montag - Freitag: 9 - 17 Uhr</p>
+		<p class={textClass}>Montag - Freitag: 7:30 - 17:00 Uhr</p>
 	</div>
 
 	<div class="flex flex-row items-center">

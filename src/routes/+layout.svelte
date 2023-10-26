@@ -1,6 +1,7 @@
 <script>
 	import { page } from "$app/stores";
 	import "../app.css";
+	import Abschlusstext from "../components/Abschlusstext.svelte";
 	import Address from "../components/Address.svelte";
 	import Footer from "../components/Footer.svelte";
 	import Header from "../components/Header.svelte";
@@ -24,6 +25,7 @@
 		</nav>
 		<Header />
 		<slot />
+		<Abschlusstext />
 		<Address />
 		<Footer />
 	</div>

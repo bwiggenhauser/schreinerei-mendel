@@ -7,13 +7,10 @@
 
 <div>
 	<Introduction />
-	<div class="flex flex-col lg:flex-row flex-wrap">
+	<h1 class="text-center text-3xl font-bold mt-8 mb-4">Unsere Leistungen</h1>
+	<div class="flex flex-col lg:flex-row flex-wrap lg:justify-center">
 		{#each texts as option}
-			<Option
-				title={option.title}
-				optionText={option.text}
-				icon={option.icon}
-				iconWhite={option.iconWhite} />
+			<Option title={option.title} optionText={option.text} icon={option.icon} />
 		{/each}
 	</div>
 </div>
