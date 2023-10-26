@@ -1,16 +1,16 @@
 <script>
-	import Address from "../components/Address.svelte";
-	import Introduction from "../components/Introduction.svelte";
-	import Option from "../components/Option.svelte";
-	import { texts } from "../info/options";
 </script>
 
-<div>
-	<Introduction />
-	<h1 class="text-center text-3xl font-bold mt-8 mb-4">Unsere Leistungen</h1>
-	<div class="flex flex-col lg:flex-row flex-wrap lg:justify-center">
-		{#each texts as option}
-			<Option title={option.title} optionText={option.text} icon={option.icon} />
-		{/each}
+<div class="flex flex-col w-full">
+	<div class="h-12 w-full bg-gray" />
+	<div class="relative">
+		<img
+			src="/rebranding-images/main-schreinerei.jpg"
+			alt="Schreinerei Bild"
+			class="w-full h-auto" />
+		<div
+			class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl font-bold shadow-lg w-full text-center">
+			Schreinerei Mendel
+		</div>
 	</div>
 </div>
