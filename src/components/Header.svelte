@@ -4,7 +4,7 @@
 	</div>
 	<p class="text-3xl md:text-5xl mb-4 animate">Schreinerei Mendel</p>
 	<div class="flex flex-row w-full justify-evenly animate">
-		<p class="text-gray-600 dark:text-gray-300">Innenausbau • Meisterbetrieb</p>
+		<p class="text-gray-600 dark:text-gray-300">Meister- und Ausbildungsbetrieb</p>
 	</div>
 </div>
 
@@ -29,6 +29,6 @@
 
 	/* Apply the animation to the image when a certain class is added */
 	.animate {
-		animation: slidein 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+		animation: slidein 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 </style>
