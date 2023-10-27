@@ -1,6 +1,7 @@
 <script>
 	import Address from "../components/Address.svelte";
 	import Introduction from "../components/Introduction.svelte";
+	import NewIntroduction from "../components/NewIntroduction.svelte";
 	import Option from "../components/Option.svelte";
 	import { texts } from "../info/options";
 </script>

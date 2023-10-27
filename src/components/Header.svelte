@@ -1,8 +1,10 @@
-<div class="flex flex-col justify-start items-center font-bold">
-	<div class="image-container animate m-8">
+<div class="flex flex-col justify-start items-center font-bold mb-6">
+	<div class="image-container animate mt-8">
 		<img src="/icon_new.png" alt="Schreinerei Icon" />
 	</div>
-	<p class="text-3xl md:text-5xl mb-4 animate">Schreinerei Mendel</p>
+	<h1 class="text-4xl lg:text-6xl animate mt-6 leading-none text-center mb-2">
+		Schreinerei Mendel
+	</h1>
 	<div class="flex flex-row w-full justify-evenly animate">
 		<p class="text-gray-600 dark:text-gray-300">Meister- und Ausbildungsbetrieb</p>
 	</div>
