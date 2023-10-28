@@ -16,7 +16,8 @@
 </script>
 
 <div class="flex flex-col bg-mendel-blue text-white sticky top-0 md:hidden">
-	<div class="w-full h-12 sticky top-0 flex flex-row justify-end items-center pr-4">
+	<div class="w-full h-12 sticky top-0 flex flex-row justify-between items-center px-4">
+		<img src="/icon-white.png" alt="Logo der Schreinerei Mendel" class="w-8 h-8 object-contain" />
 		<button on:click={toggleShowNavigation}>
 			{#if showNavigation}
 				<X />
@@ -38,14 +39,20 @@
 </div>
 
 <div class="flex-col bg-mendel-blue text-white sticky top-0 hidden md:flex">
-	<nav class="bg-mendel-blue flex flex-row justify-center items-center m-2 gap-2">
-		{#each routes as route}
-			<a
-				class="py-1 px-4 transition-all rounded"
-				href={route.path}
-				class:default-active={$page.url.pathname === route.path}>{route.name}</a>
-		{/each}
-	</nav>
+	<div class="flex flex-row justify-between items-center px-4">
+		<div class="w-1/4">
+			<img src="/icon-white.png" alt="Logo der Schreinerei Mendel" class="w-8 h-8 object-contain" />
+		</div>
+		<nav class="bg-mendel-blue flex flex-row justify-center items-center m-2 gap-2 w-2/4">
+			{#each routes as route}
+				<a
+					class="py-1 px-4 transition-all rounded"
+					href={route.path}
+					class:default-active={$page.url.pathname === route.path}>{route.name}</a>
+			{/each}
+		</nav>
+		<div class="w-1/4" />
+	</div>
 </div>
 
 <style>

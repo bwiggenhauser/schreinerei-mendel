@@ -14,7 +14,7 @@
 
 <div
 	class="flex flex-row justify-center items-start text-dark-gray dark:bg-dark-gray dark:text-white">
-	<div class="w-full md:w-3/4 lg:w-2/3 xl:w-1/2 dark:bg-dark-gray">
+	<div class="w-full xl:w-3/4 dark:bg-dark-gray">
 		<Navigation />
 		<Header />
 		<slot />
