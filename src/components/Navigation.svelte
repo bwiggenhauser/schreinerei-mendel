@@ -15,7 +15,7 @@
 	}
 </script>
 
-<div class="flex flex-col bg-mendel-blue text-white sticky top-0 md:hidden">
+<div class="flex flex-col bg-mendel-blue text-white sticky top-0 w-full md:hidden">
 	<div class="w-full h-12 sticky top-0 flex flex-row justify-between items-center px-4">
 		<img src="/icon-white.png" alt="Logo der Schreinerei Mendel" class="w-8 h-8 object-contain" />
 		<button on:click={toggleShowNavigation}>
@@ -38,7 +38,7 @@
 	{/if}
 </div>
 
-<div class="flex-col bg-mendel-blue text-white sticky top-0 hidden md:flex">
+<div class="flex-col bg-mendel-blue text-white sticky top-0 hidden w-full md:flex">
 	<div class="flex flex-row justify-between items-center px-4">
 		<div class="w-1/4">
 			<img src="/icon-white.png" alt="Logo der Schreinerei Mendel" class="w-8 h-8 object-contain" />
