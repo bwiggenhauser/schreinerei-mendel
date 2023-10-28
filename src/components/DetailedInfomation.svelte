@@ -6,7 +6,7 @@
 
 <div class="">
 	<div class="p-4">
-		<h1 class="text-5xl font-bold text-center mb-2">{title}</h1>
+		<h1 class="text-3xl font-bold text-center mb-2">{title}</h1>
 		<p class="text-center">{infoText}</p>
 	</div>
 	<div class="flex flex-col md:flex-row flex-wrap justify-center gap-4 p-4">
