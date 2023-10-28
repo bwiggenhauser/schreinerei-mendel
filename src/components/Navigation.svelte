@@ -47,7 +47,12 @@
 <div class="flex-col bg-mendel-blue text-white sticky top-0 hidden w-full md:flex">
 	<div class="flex flex-row justify-between items-center px-4">
 		<div class="w-1/8">
-			<img src="/icon-white.png" alt="Logo der Schreinerei Mendel" class="w-8 h-8 object-contain" />
+			<a href="/">
+				<img
+					src="/icon-white.png"
+					alt="Logo der Schreinerei Mendel"
+					class="w-8 h-8 object-contain" />
+			</a>
 		</div>
 		<nav class="bg-mendel-blue flex flex-row justify-center items-center m-2 gap-2 w-6/8">
 			{#each routes as route}
