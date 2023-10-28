@@ -16,7 +16,7 @@
 	class="flex flex-col justify-start items-center w-full text-dark-gray dark:bg-dark-gray dark:text-white">
 	<Navigation />
 	<div class="w-full xl:w-2/3 dark:bg-dark-gray">
-		<Header />
+		
 		<slot />
 		<Abschlusstext />
 		<Address />
