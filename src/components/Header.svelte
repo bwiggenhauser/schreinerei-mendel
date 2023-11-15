@@ -2,7 +2,7 @@
 	<div class="image-container animate mt-8">
 		<img src="/icon_new.png" alt="Schreinerei Icon" />
 	</div>
-	<h1 class="text-4xl lg:text-6xl animate mt-6 leading-none text-center mb-2">
+	<h1 class="text-4xl lg:text-6xl animate mt-6 leading-none text-center mb-2 px-4">
 		Schreinerei Mendel
 	</h1>
 	<div class="flex flex-row w-full justify-evenly animate">

@@ -7,7 +7,8 @@ export default {
 			"mendel-yellow": "#fae983",
 			white: "#ffffff",
 			black: "#000000",
-			"dark-gray": "#1e1e1e",
+			"dark-gray": "#050505",
+			"lighter-dark-gray": "#1a1a1a",
 			gray: "#999999"
 		},
 		extend: {}

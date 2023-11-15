@@ -33,10 +33,11 @@
 		</button>
 	</div>
 	{#if showNavigation}
-		<nav class="bg-mendel-blue flex flex-col m-8 animate items-center">
+		<nav class="bg-mendel-blue flex flex-col m-8 items-center min-h-screen">
 			{#each routes as route}
 				<a
-					class="py-2 text-xl font-bold transition-all rounded w-full text-center"
+					on:click={toggleShowNavigation}
+					class="py-2 text-xl font-bold transition-all rounded w-full text-center cursor-pointer"
 					href={route.path}
 					class:active={$page.url.pathname === route.path}>{route.name}</a>
 			{/each}
