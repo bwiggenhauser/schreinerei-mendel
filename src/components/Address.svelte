@@ -40,7 +40,7 @@
 				y1="2"
 				x2="16"
 				y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
-		<p class={textClass}>Montag - Freitag: 7:30 - 17:00 Uhr</p>
+		<p class={textClass}>Montag - Donnerstag: 7:30 - 17:00 Uhr / Freitag: 7:30 - 15:00 Uhr</p>
 	</div>
 
 	<div class="flex flex-row items-center">

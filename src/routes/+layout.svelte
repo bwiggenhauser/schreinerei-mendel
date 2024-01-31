@@ -13,7 +13,7 @@
 </script>
 
 <div
-	class="flex flex-col justify-start items-center w-full min-h-screen text-dark-gray dark:bg-dark-gray dark:bg-gradient-to-r dark:from-dark-gray dark:to-lighter-dark-gray dark:text-white">
+	class="flex flex-col justify-start items-center w-full min-h-screen text-dark-gray dark:bg-dark-gray dark:text-white">
 	<Navigation />
 	<div class="w-full xl:w-2/3">
 		<slot />
