@@ -5,11 +5,12 @@
 	import X from "./Icons/X.svelte";
 	const routes = [
 		{ name: "Über Uns", path: "/" },
-		{ name: "Innenausbau", path: "/innenausbau" },
-		{ name: "Möbelbau", path: "/moebelbau" },
-		{ name: "Bodenbeläge", path: "/bodenbelaege" },
-		{ name: "Außenbereich", path: "/aussenbereich" },
-		{ name: "Sonstige Arbeiten", path: "/sonstiges" }
+		{ name: "Galerie", path: "/gallery" }
+		// { name: "Innenausbau", path: "/innenausbau" },
+		// { name: "Möbelbau", path: "/moebelbau" },
+		// { name: "Bodenbeläge", path: "/bodenbelaege" },
+		// { name: "Außenbereich", path: "/aussenbereich" },
+		// { name: "Sonstige Arbeiten", path: "/sonstiges" }
 	];
 
 	let showNavigation = false;
