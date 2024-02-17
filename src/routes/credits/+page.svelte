@@ -62,4 +62,30 @@
 		verschlüsselte Verbindung an der „https://“ Adresszeile Ihres Browsers und am Schloss-Symbol in
 		der Browserzeile.
 	</p>
+
+	<h1 class="font-bold text-center text-2xl mt-4">Credits</h1>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/wardrobe" title="wardrobe icons"
+			>Wardrobe icons created by surang - Flaticon</a>
+	</p>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/door" title="door icons"
+			>Door icons created by kerismaker - Flaticon</a>
+	</p>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/cnc-machine" title="cnc machine icons"
+			>Cnc machine icons created by Smashicons - Flaticon</a>
+	</p>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/floor" title="floor icons"
+			>Floor icons created by Smashicons - Flaticon</a>
+	</p>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/terrace" title="terrace icons"
+			>Terrace icons created by Peerapak Takpho - Flaticon</a>
+	</p>
+	<p>
+		<a href="https://www.flaticon.com/free-icons/renovation" title="renovation icons"
+			>Renovation icons created by Creative Stall Premium - Flaticon</a>
+	</p>
 </div>
