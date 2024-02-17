@@ -27,12 +27,12 @@ export const texts = [
 		icon: "renovation-blue.png",
 		iconWhite: "renovation-white.png",
 		title: "Renovierungsarbeiten",
-		text: "Aus Alt mach neu! Wir helfen Ihnen bei verschiedensten Renovierungsarbeiten, um Ihr Haus wieder ordentlich herzurichten."
+		text: "Aus Alt mach Neu! Wir helfen Ihnen bei verschiedensten Renovierungsarbeiten, um Ihr Haus wieder herzurichten."
 	},
 	{
 		icon: "milling-machine-blue.png",
 		iconWhite: "milling-machine-white.png",
 		title: "Sonstige Arbeiten",
-		text: "Haben Sie vielleicht etwas anderes im Kopf? Fräsarbeiten an unserer CNC-Maschine oder andere Sonderanfertigungen? Wir finden etwas für Ihre individuellen Ideen!"
+		text: "Haben Sie vielleicht etwas Anderes im Kopf? Fräsarbeiten an unserer CNC-Maschine oder andere Sonderanfertigungen? Wir finden etwas für Ihre individuellen Ideen!"
 	}
 ];

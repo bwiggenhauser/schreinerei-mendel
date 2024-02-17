@@ -41,9 +41,9 @@
 				x2="16"
 				y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
 		<div class="flex flex-col lg:flex-row lg:items-center items-start">
-			<p class={textClass}>Montag - Donnerstag: 7.30 - 17.00 Uhr</p>
+			<p class={textClass}>Montag - Donnerstag: 7:30 - 17:00 Uhr</p>
 			<p class="px-4 hidden lg:flex">|</p>
-			<p class={textClass}>Freitag: 7.30 - 15.00 Uhr</p>
+			<p class={textClass}>Freitag: 7:30 - 15:00 Uhr</p>
 		</div>
 	</div>
 
