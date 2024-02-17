@@ -37,7 +37,7 @@
 				on:click={() => openModal(path + "/" + index + ".jpg")}
 				src={path + "/" + index + ".jpg"}
 				alt="empty"
-				class="md:w-64 md:h-64 w-24 h-24 object-cover rounded-lg md:transition-all" />
+				class="md:w-64 md:h-64 w-24 h-24 object-cover rounded-lg md:transition-all cursor-pointer" />
 		{/each}
 	</div>
 </div>
