@@ -29,13 +29,15 @@
 	<div class="p-4">
 		<h1 class="text-3xl font-bold text-center">{title}</h1>
 	</div>
-	<div class="flex flex-row flex-wrap gap-4 justify-center">
+	<div class="flex flex-row flex-wrap gap-2 md:gap-4 justify-center">
 		{#each indices as index}
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 			<img
 				on:click={() => openModal(path + "/" + index + ".jpg")}
 				src={path + "/" + index + ".jpg"}
 				alt="empty"
-				class="md:w-64 md:h-64 h-auto w-full object-cover rounded-lg md:transition-all" />
+				class="md:w-64 md:h-64 w-24 h-24 object-cover rounded-lg md:transition-all" />
 		{/each}
 	</div>
 </div>

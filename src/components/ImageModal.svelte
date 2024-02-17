@@ -7,7 +7,7 @@
 <div class="modal" on:click={closeModal} on:keydown={closeModal} role="button" tabindex="0">
 	<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 	<div
-		class="modal-content rounded-lg p-1 md:p-4 shadow-xl bg-white w-4/5 md:h-4/5 md:w-fit"
+		class="modal-content rounded-lg p-1 md:p-4 shadow-xl bg-white w-11/12 md:h-4/5 md:w-fit"
 		on:click|stopPropagation
 		on:keydown|stopPropagation
 		role="dialog">
