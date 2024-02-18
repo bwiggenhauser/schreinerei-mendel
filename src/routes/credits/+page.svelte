@@ -88,4 +88,26 @@
 		<a href="https://www.flaticon.com/free-icons/renovation" title="renovation icons"
 			>Renovation icons created by Creative Stall Premium - Flaticon</a>
 	</p>
+	<p>
+		Datenschutz-Konfigurator von
+		<a
+			target="_blank"
+			class="text-mendel-blue hover:text-mendel-yellow"
+			href="https://mein-datenschutzbeauftragter.de">
+			mein-datenschutzbeauftragter.de
+		</a>
+	</p>
+	<p>
+		Impressum vom <a
+			target="_blank"
+			class="text-mendel-blue hover:text-mendel-yellow"
+			href="https://www.impressum-generator.de">Impressum-Generator</a>
+		der
+		<a
+			target="_blank"
+			class="text-mendel-blue hover:text-mendel-yellow"
+			href="https://www.kanzlei-hasselbach.de"
+			>Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und Familienrecht
+		</a>
+	</p>
 </div>
